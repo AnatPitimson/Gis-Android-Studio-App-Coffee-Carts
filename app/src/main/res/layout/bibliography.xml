@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_gravity="center"
+    android:layout_height="640dp"
+    android:background="@color/backgroundColor">
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="178dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginEnd="57dp"
+        android:gravity="center"
+        android:src="@drawable/new_logo"
+        android:id="@+id/img">
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/b"
+        android:layout_below="@+id/img"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="37dp"
+        android:layout_marginBottom="43dp"
+        android:gravity="center"
+        android:text="We took information from several sources of information: \n\n\nCoffee carts: locations + information:\n\nCoffee Trail\nhttps://coffeetrail.co.il\n\nHiking Trails: Locations + Names:\n\nGovMap\nhttps://www.govmap.gov.il"
+        android:textDirection="ltr"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/b"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_design_choose_image"
+        android:text="Back"
+        android:textAllCaps="false"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="15dp"
+    android:padding="20dp"
+    android:background="@color/backgroundColor"
+    android:layout_margin="10dp">
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/circle"></ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameText"
+        android:text="Name"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#000"
+        android:layout_toRightOf="@id/img1"
+        android:layout_marginLeft="10dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/placeText"
+        android:text="Place"
+        android:textSize="25dp"
+        android:textColor="#000"
+        android:layout_toRightOf="@id/img1"
+        android:layout_below="@id/nameText"
+        android:layout_marginLeft="10dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/areaText"
+        android:text="Area"
+        android:textSize="25dp"
+        android:textColor="#000"
+        android:layout_toRightOf="@id/img1"
+        android:layout_below="@id/placeText"
+        android:layout_marginLeft="10dp">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/areaText"
+        android:gravity="center"
+        android:paddingRight="150dp"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/deleteBtn"
+            android:layout_width="173dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button_design"
+            android:gravity="center"
+            android:text="Delete"
+            android:textAllCaps="false"></Button>
+    </LinearLayout>
+
+</RelativeLayout>

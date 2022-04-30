@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/A/Desktop/GIS-APP/Android/app/src/main/res/drawable/arrow_spinner.xml" value="0.119" />
+        <entry key="..\:/Users/A/Desktop/GIS-APP/Android/app/src/main/res/drawable/back.xml" value="0.1545" />
+        <entry key="..\:/Users/A/Desktop/GIS-APP/Android/app/src/main/res/drawable/background.xml" value="0.136" />
+        <entry key="..\:/Users/A/Desktop/GIS-APP/Android/app/src/main/res/drawable/button_design.xml" value="0.1545" />
+        <entry key="..\:/Users/A/Desktop/GIS-APP/Android/app/src/main/res/drawable/button_design_choose_image.xml" value="0.2595" />
+        <entry key="..\:/Users/A/Desktop/GIS-APP/Android/app/src/main/res/drawable/circle.xml" value="0.1" />
+        <entry key="..\:/Users/A/Desktop/GIS-APP/Android/app/src/main/res/drawable/circle_.xml" value="0.119" />
+        <entry key="..\:/Users/A/Desktop/GIS-APP/Android/app/src/main/res/drawable/edit_text_design.xml" value="0.1545" />
+        <entry key="..\:/Users/A/Desktop/GIS-APP/Android/app/src/main/res/drawable/empty_star.xml" value="0.171" />
+        <entry key="..\:/Users/A/Desktop/GIS-APP/Android/app/src/main/res/drawable/empy_star.xml" value="0.171" />
+        <entry key="..\:/Users/A/Desktop/GIS-APP/Android/app/src/main/res/drawable/ic_launcher_background.xml" value="0.246" />
+        <entry key="..\:/Users/A/Desktop/GIS-APP/Android/app/src/main/res/drawable/my_location.xml" value="0.2225" />
+        <entry key="..\:/Users/A/Desktop/GIS-APP/Android/app/src/main/res/drawable/spinner_design.xml" value="0.176" />
+        <entry key="..\:/Users/A/Desktop/GIS-APP/Android/app/src/main/res/layout/about_the_app.xml" value="0.20108695652173914" />
+        <entry key="..\:/Users/A/Desktop/GIS-APP/Android/app/src/main/res/layout/about_us.xml" value="0.2" />
+        <entry key="..\:/Users/A/Desktop/GIS-APP/Android/app/src/main/res/layout/activity_maps.xml" value="0.2" />
+        <entry key="..\:/Users/A/Desktop/GIS-APP/Android/app/src/main/res/layout/add_cart.xml" value="0.264" />
+        <entry key="..\:/Users/A/Desktop/GIS-APP/Android/app/src/main/res/layout/background.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/A/Desktop/GIS-APP/Android/app/src/main/res/layout/bibliography.xml" value="0.20108695652173914" />
+        <entry key="..\:/Users/A/Desktop/GIS-APP/Android/app/src/main/res/layout/carts_list_view.xml" value="0.144" />
+        <entry key="..\:/Users/A/Desktop/GIS-APP/Android/app/src/main/res/layout/comment_single.xml" value="0.19202898550724637" />
+        <entry key="..\:/Users/A/Desktop/GIS-APP/Android/app/src/main/res/layout/comments.xml" value="0.13405797101449277" />
+        <entry key="..\:/Users/A/Desktop/GIS-APP/Android/app/src/main/res/layout/explanation.xml" value="0.264" />
+        <entry key="..\:/Users/A/Desktop/GIS-APP/Android/app/src/main/res/layout/info_popup.xml" value="0.245018115942029" />
+        <entry key="..\:/Users/A/Desktop/GIS-APP/Android/app/src/main/res/layout/item_in_list.xml" value="0.2028985507246377" />
+        <entry key="..\:/Users/A/Desktop/GIS-APP/Android/app/src/main/res/layout/logged_in_user_menu.xml" value="0.2028985507246377" />
+        <entry key="..\:/Users/A/Desktop/GIS-APP/Android/app/src/main/res/layout/login.xml" value="0.176" />
+        <entry key="..\:/Users/A/Desktop/GIS-APP/Android/app/src/main/res/layout/main_item.xml" value="0.2028985507246377" />
+        <entry key="..\:/Users/A/Desktop/GIS-APP/Android/app/src/main/res/layout/menu.xml" value="0.2" />
+        <entry key="..\:/Users/A/Desktop/GIS-APP/Android/app/src/main/res/layout/place_data.xml" value="0.264" />
+        <entry key="..\:/Users/A/Desktop/GIS-APP/Android/app/src/main/res/layout/register.xml" value="0.2" />
+        <entry key="..\:/Users/A/Desktop/GIS-APP/Android/app/src/main/res/layout/splash_screen.xml" value="0.245018115942029" />
+        <entry key="..\:/Users/A/Desktop/GIS-APP/Android/app/src/main/res/layout/test.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/A/Desktop/GIS-APP/Android/app/src/main/res/layout/test_data_per_position.xml" value="0.264" />
+        <entry key="..\:/Users/A/Desktop/GIS-APP/Android/app/src/main/res/menu/menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/A/Desktop/GIS-APP/Android/app/src/main/res/menu/menu_.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/A/Desktop/GIS-APP/Android/app/src/main/res/menu/search.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/galus/Desktop/Android/app/src/main/res/layout/about_the_app.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/galus/Desktop/Android/app/src/main/res/layout/explanation.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/galus/Desktop/Android/app/src/main/res/layout/info_popup.xml" value="0.13958333333333334" />
+        <entry key="..\:/Users/galus/Desktop/Android/app/src/main/res/layout/test_data_per_position.xml" value="0.12552083333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>

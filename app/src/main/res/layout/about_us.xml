@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_gravity="center"
+    android:layout_height="640dp"
+    android:background="@color/backgroundColor">
+
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="178dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:src="@drawable/new_logo"></ImageView>
+
+    <TextView
+        android:id="@+id/text_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Hello! We are Gal, Guy and Anat.\nWe are students at\n Holon Institute of Technology\nThis project was written for a GIS course. \nWe chose a theme that combined two things that the three of us love\nNature and Coffee\n"
+        android:textDirection="ltr"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/pic_"
+        android:layout_width="370dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/b"
+        android:layout_below="@+id/text_"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="22dp"
+        android:src="@drawable/cartoon_"></ImageView>
+
+    <Button
+        android:id="@+id/b"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_design_choose_image"
+        android:text="Back"
+        android:textAllCaps="false"
+        android:textStyle="bold" />
+
+</RelativeLayout>

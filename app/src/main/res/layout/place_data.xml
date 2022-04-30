@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/background_menue">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/whitei"
+        android:gravity="center"
+        android:layoutDirection="ltr"
+        android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/btnsLayout"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_above="@+id/place"
+            android:layout_below="@id/toolbar"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/b"
+            android:gravity="center"
+            android:text="name"
+            android:textColor="@color/green_"
+            android:textSize="50dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/place"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/properties"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center"
+            android:layout_marginEnd="17dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/b"
+            android:text="place"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/area"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/properties"
+            android:layout_gravity="center"
+            android:layout_marginEnd="17dp"
+            android:layout_marginBottom="20dp"
+            android:layout_toStartOf="@+id/place"
+            android:fontFamily="@font/b"
+            android:text="area"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/properties"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/accessible"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/b"
+            android:text="מאפיינים: "
+            android:textSize="20dp"
+            android:textStyle="bold">></TextView>
+
+        <CheckBox
+            android:id="@+id/kosher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/activity_time"
+            android:layout_gravity="center"
+            android:layout_marginEnd="-81dp"
+            android:layout_marginBottom="20dp"
+            android:layout_toStartOf="@+id/properties"
+            android:clickable="false"
+            android:fontFamily="@font/b"
+            android:layoutDirection="rtl"
+            android:text="כשר"
+            android:textStyle="bold"></CheckBox>
+
+        <CheckBox
+            android:id="@+id/accessible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/activity_time"
+            android:layout_gravity="center"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_toStartOf="@+id/kosher"
+            android:clickable="false"
+            android:fontFamily="@font/b"
+            android:layoutDirection="rtl"
+            android:text="נגיש"
+            android:textStyle="bold"></CheckBox>
+
+        <CheckBox
+            android:id="@+id/vegan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/activity_time"
+            android:layout_gravity="center"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="20dp"
+            android:layout_toStartOf="@+id/accessible"
+            android:clickable="false"
+            android:fontFamily="@font/b"
+            android:layoutDirection="rtl"
+            android:text="טבעוני"
+            android:textStyle="bold"></CheckBox>
+
+        <CheckBox
+            android:id="@+id/gluten_free"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/activity_time"
+            android:layout_gravity="center"
+            android:layout_marginEnd="22dp"
+            android:layout_marginBottom="20dp"
+            android:layout_toStartOf="@+id/vegan"
+            android:clickable="false"
+            android:fontFamily="@font/b"
+            android:layoutDirection="rtl"
+            android:text="ללא גלוטן"
+            android:textStyle="bold"></CheckBox>
+
+        <TextView
+            android:id="@+id/activity_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/phone"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/b"
+            android:text="שעות פעילות"
+            android:textSize="15dp"
+            android:textStyle="bold"></TextView>
+
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/pic_text"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center"
+            android:layout_marginEnd="17dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/b"
+            android:text="טלפון"
+            android:textStyle="bold"></TextView>
+
+        <ImageButton
+            android:id="@+id/waze"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_above="@+id/mapMarker"
+            android:layout_gravity="center"
+            android:layout_marginEnd="35dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toStartOf="@+id/waze_text"
+            android:scaleType="centerCrop"
+            android:background="@color/anat"
+            android:src="@drawable/aa"></ImageButton>
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/mapMarker"
+            android:layout_width="match_parent"
+            android:layout_height="237dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="3dp" />
+
+        <ImageView
+            android:id="@+id/img_p"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_above="@+id/waze_text"
+            android:layout_marginBottom="20dp"
+            android:layout_marginStart="17dp"
+            android:layout_marginEnd="22dp"
+            android:layout_toStartOf="@+id/pic_text"
+            android:src="@color/bluei"></ImageView>
+
+        <TextView
+            android:id="@+id/waze_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/mapMarker"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="14dp"
+            android:layout_marginBottom="31dp"
+            android:fontFamily="@font/b"
+            android:text="ניווט: "
+            android:textStyle="bold"></TextView>
+
+        <ImageView
+            android:id="@+id/img_a"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_above="@+id/mapMarker"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="63dp"
+            android:layout_marginTop="171dp"
+            android:layout_marginEnd="46dp"
+            android:layout_marginBottom="19dp"
+            android:src="@color/bluei"
+            android:visibility="invisible"></ImageView>
+
+        <TextView
+            android:id="@+id/pic_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/waze_text"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="14dp"
+            android:layout_marginBottom="40dp"
+            android:fontFamily="@font/b"
+            android:text="תמונה: "
+            android:textStyle="bold">
+        </TextView>
+
+        <ImageButton
+            android:id="@+id/comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/add_comment_text"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="23dp"
+            android:layout_marginEnd="-60dp"
+            android:layout_marginBottom="13dp"
+            android:layout_toStartOf="@+id/img_a"
+            android:background="@android:color/transparent"
+            android:src="@drawable/comment" />
+
+        <TextView
+            android:id="@+id/add_comment_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/mapMarker"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="307dp"
+            android:layout_marginBottom="20dp"
+            android:text="הוספת תגובה"></TextView>
+
+    </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

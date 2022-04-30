@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "686869700251",
+    "firebase_url": "https://coffeecartgis-default-rtdb.firebaseio.com",
+    "project_id": "coffeecartgis",
+    "storage_bucket": "coffeecartgis.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686869700251:android:af5a73c7bff75300eaf03e",
+        "android_client_info": {
+          "package_name": "com.example.coffeetrail"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "686869700251-72v29rnt99nln9qhv8thd02a78crvb7a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBS1U3r6KeQGS3U922HkxY1tMwS428S66U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "686869700251-72v29rnt99nln9qhv8thd02a78crvb7a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

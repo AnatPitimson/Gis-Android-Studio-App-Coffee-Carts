@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/background_"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="211dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/name"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/a"
+        android:gravity="center"
+        android:text="Add Cart"
+        android:textSize="37dp"></TextView>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/name"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="86dp"
+        android:layout_marginBottom="6dp"
+        android:src="@drawable/cartoon"></ImageView>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/name"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="6dp"
+        android:src="@drawable/cartoon"></ImageView>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/Place"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/edit_text_design"
+        android:fontFamily="@font/b"
+        android:hint="Name"
+        android:paddingLeft="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/Place"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/spinner1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/edit_text_design"
+        android:fontFamily="@font/b"
+        android:hint="Place"
+        android:paddingLeft="20dp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/lat"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/spinner_design"
+        android:fontFamily="@font/b"
+        android:paddingLeft="40dp"
+        android:textStyle="bold"></Spinner>
+
+    <EditText
+        android:id="@+id/lat"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/lon"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/edit_text_design"
+        android:fontFamily="@font/b"
+        android:hint="Latitude"
+        android:inputType="numberDecimal"
+        android:paddingLeft="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/lon"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/textviewProperties"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/edit_text_design"
+        android:fontFamily="@font/b"
+        android:hint="Longitude"
+        android:inputType="numberDecimal"
+        android:paddingLeft="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="245dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="22dp"
+        android:background="@drawable/button_design"
+        android:fontFamily="@font/b"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="94dp"
+        android:layout_marginEnd="229dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/button_design"
+        android:fontFamily="@font/b"
+        android:text="Map"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="2dp"
+        android:layout_marginEnd="338dp"
+        android:layout_marginBottom="680dp"
+        android:gravity="center"
+        android:text="Logout"
+        android:textAllCaps="false"
+        android:textColor="@color/blue"
+        android:textSize="23dp" />
+
+
+    <TextView
+        android:id="@+id/textviewProperties"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginEnd="257dp"
+        android:layout_marginBottom="318dp"
+        android:fontFamily="@font/b"
+        android:text="Properties"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/kosher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="280dp"
+        android:layout_toStartOf="@+id/accessible_"
+        android:layoutDirection="rtl"
+        android:text="כשר" />
+
+    <CheckBox
+        android:id="@+id/accessible_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="228dp"
+        android:layout_marginBottom="280dp"
+        android:layoutDirection="rtl"
+        android:text="נגיש" />
+
+
+    <CheckBox
+        android:id="@+id/vegan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="142dp"
+        android:layout_marginBottom="280dp"
+        android:layoutDirection="rtl"
+        android:text="טבעוני" />
+
+    <CheckBox
+        android:id="@+id/gluten_free"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="280dp"
+        android:layoutDirection="rtl"
+        android:text="ללא גלוטן" />
+
+
+    <EditText
+        android:id="@+id/activity_time"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="223dp"
+        android:background="@drawable/edit_text_design"
+        android:fontFamily="@font/b"
+        android:hint="Activity time"
+        android:paddingLeft="20dp" />
+
+            <Spinner
+                android:id="@+id/phonek"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="46dp"
+                android:layout_marginBottom="169dp"
+                android:background="@drawable/spinner_design"
+                android:fontFamily="@font/b"
+                android:paddingLeft="40dp"
+                android:textStyle="bold"></Spinner>
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="169dp"
+        android:background="@drawable/edit_text_design"
+        android:hint="Phone"
+        android:inputType="phone"
+        android:paddingLeft="20dp"></EditText>
+
+
+    <Button
+        android:id="@+id/choose_pic"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/map"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/button_design_choose_image"
+        android:text="choose image"
+        android:textAllCaps="false"></Button>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/uploadImg"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="102dp"
+        android:background="@drawable/button_design_choose_image"
+        android:text="Upload Image"
+        android:textAllCaps="false"
+        android:visibility="invisible"></Button>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="179dp"
+        android:layout_marginTop="339dp"
+        android:layout_marginEnd="182dp"
+        android:layout_marginBottom="342dp"
+        android:visibility="invisible"></ProgressBar>
+
+    <ImageButton
+        android:id="@+id/backBtn"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="371dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/back_while_pressing" />
+
+
+</RelativeLayout>

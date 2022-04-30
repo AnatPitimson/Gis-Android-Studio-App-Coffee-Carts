@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_gravity="center"
+    android:layout_height="640dp"
+    android:background="@color/backgroundColor"
+    android:orientation="horizontal">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1">
+
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="wrap_content"
+                android:layout_height="178dp"
+                android:layout_weight="1"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="center"
+                android:layout_marginStart="78dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="57dp"
+                android:gravity="center"
+                android:src="@drawable/new_logo"></ImageView>
+
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:layout_above="@+id/b"
+                android:layout_below="@+id/img"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="2"
+                android:layout_marginEnd="20dp"
+                android:text="לאחר לחיצה על כפתור ה-Guest תוצג לכם מפה עם כל העגלות הפזורות ברחבי הארץ\n בלחיצה על עגלה ניתן לראות את שמה, המיקום שלה, ושעות הפעילות שלה\n בעת לחיצה על חלון המידע שנפתח תוכלו לראות תמונות של המקום, פרטים ליצירת קשר, ואפילו לנווט למקום באמצעות Waze.\n תוכלו גם להוסיף תגובה על העגלה הנבחרת."
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/text_"
+                android:layout_width="wrap_content"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text1"
+                android:layout_weight="2"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="תוכלו להירשם ולהתחבר לאפליקציה ובזאת תוכלו לקבל הרשאה להוספת עגלה צפייה וחיפוש ברשימת העגלות עם אופציה למחיקת עגלה\n\n
+"
+                android:textSize="20dp"></TextView>
+
+
+            <Button
+                android:id="@+id/b"
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="100dp"
+                android:layout_weight="4"
+                android:layout_marginEnd="100dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/button_design_choose_image"
+                android:text="Back"
+                android:textAllCaps="false"
+                android:textStyle="bold" />
+
+        </TableLayout>
+    </ScrollView>
+</RelativeLayout>

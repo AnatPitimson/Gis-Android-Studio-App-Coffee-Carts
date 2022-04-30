@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">coffeeTrail</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    
+    <string-array name="areas">
+        <item>Select</item>
+        <item>צפון</item>
+        <item>מרכז</item>
+        <item>דרום</item>
+    </string-array>
+
+    <string-array name="phone_k">
+        <item>Select</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>08</item>
+        <item>09</item>
+        <item>050</item>
+        <item>051</item>
+        <item>052</item>
+        <item>053</item>
+        <item>054</item>
+        <item>055</item>
+    </string-array>
+
+
+</resources>

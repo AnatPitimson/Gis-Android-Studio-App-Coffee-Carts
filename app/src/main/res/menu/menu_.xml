@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/explanation"
+        android:title="How to use the app"
+        app:showAsAction="never">
+    </item>
+
+    <item android:id="@+id/aboutUs"
+        android:title="About Us"
+        app:showAsAction="never">
+    </item>
+
+    <item android:id="@+id/bibliography"
+        android:title="Bibliography"
+        app:showAsAction="never">
+    </item>
+
+
+
+</menu>
