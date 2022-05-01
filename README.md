@@ -1,5 +1,5 @@
 # Gis-Android-Studio-App
-# Coffee Carts
+## Coffee Carts
 
 We've built an app that displays coffee carts throughout the State of Israel.
 
