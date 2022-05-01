@@ -22,9 +22,11 @@ In addition, you will see a map with hiking trails in the area of the cart you c
 
 When using the app you can Register to it and view a list of all the carts, add a cart, search for a cart by its name, area or its address.
 
-![Screenshot_2022-04-23-13-26-05-227_com example coffeetrail](https://user-images.githubusercontent.com/88483910/166126969-4a72b09a-d99d-423d-a494-a07e4324a135.jpg)
 
-![Uploading Screenshot_2022-04-23-13-25-50-566_com.example.coffeetrail.jpg…]()
+![Screenshot_2022-04-23-13-26-05-227_com example coffeetrail](https://user-images.githubusercontent.com/88483910/166127015-ba1cb7bb-d56b-4982-b142-c8fddc3d01d9.jpg)
+
+
+![Screenshot_2022-04-23-13-25-50-566_com example coffeetrail](https://user-images.githubusercontent.com/88483910/166127013-b30b7640-1022-4a25-a5dc-294e30ebf9d5.jpg)
 
 
 All information is stored in the database-
@@ -33,4 +35,5 @@ Storage-picturs
 Authentication-Register and Login
 Which are all in Firebase
 
-![Uploading Screenshot_2022-05-01-03-06-17-643_com.example.coffeetrail.jpg…]()
+
+![Screenshot_2022-05-01-03-06-17-643_com example coffeetrail](https://user-images.githubusercontent.com/88483910/166127003-05ad0824-6997-41dc-9d12-4eba6d0e982e.jpg)
