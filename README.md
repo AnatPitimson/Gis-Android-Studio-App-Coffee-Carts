@@ -1,6 +1,6 @@
 # Gis-Android-Studio-App
 ## Coffee Carts
-### Google maps and Firebase
+### Using Google maps and Firebase
 
 ### We've built an app that displays coffee carts throughout the State of Israel.
 
