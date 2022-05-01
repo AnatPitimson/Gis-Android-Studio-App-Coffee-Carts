@@ -9,7 +9,8 @@ If click on the guest button you will be able to see your current location and s
 ![Screenshot_2022-05-01-03-14-19-287_com example coffeetrail](https://user-images.githubusercontent.com/88483910/166126955-29718f80-4dd3-4af4-8ed0-19cb3e32c917.jpg)
 
 
-![Screenshot_2022-05-01-03-14-58-643_com example coffeetrail](https://user-images.githubusercontent.com/88483910/166126950-3a54c0af-229a-4db5-82d0-6f6068a60022.jpg)
+![Screenshot_2022-05-01-03-14-58-6](https://user-images.githubusercontent.com/88483910/166127124-a3752efc-3d8a-40d7-aca9-5c423417d68e.jpg)
+
 
 
 If you click on the infowindow you will see details about the coffee cart 
