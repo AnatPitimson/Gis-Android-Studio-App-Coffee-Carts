@@ -9,7 +9,8 @@ If click on the guest button you will be able to see your current location and s
 ![Screenshot_2022-05-01-03-14-19-287_com example coffeetrail](https://user-images.githubusercontent.com/88483910/166126955-29718f80-4dd3-4af4-8ed0-19cb3e32c917.jpg)
 
 
-![Screenshot_2022-05-01-03-14-58-6](https://user-images.githubusercontent.com/88483910/166127124-a3752efc-3d8a-40d7-aca9-5c423417d68e.jpg)
+![Screenshot_2022-05-01-03-14-58-6 (1)](https://user-images.githubusercontent.com/88483910/166127140-05adad76-a6f7-4b10-b918-5b0c31ecc84a.jpg)
+
 
 
 
