@@ -16,12 +16,6 @@
 
 ![4](https://user-images.githubusercontent.com/88483910/166127300-5a78f11c-6ee4-4e47-a552-24b2abeabee6.png)
 
-### All information is stored in the database-
-### Realtime Database-data about the cart
-### Storage-picturs
-### Authentication-Register and Login
-### Which are all in Firebase
-
 ### All information, including data about the coffee cart, pictures, comments, and user authentication (register and login), is stored in the Firebase database.
 ### The Realtime Database is used to store data about the coffee carts
 ### Storage is used for pictures
