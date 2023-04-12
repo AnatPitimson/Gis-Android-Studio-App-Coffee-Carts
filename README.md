@@ -4,7 +4,7 @@
 
 ### We've built an app that displays coffee carts throughout the State of Israel.
 
-### If click on the guest button you will be able to see your current location and see the locations of the coffee carts,
+### If you click on the 'Guest' button, you will be able to see your current location and the locations of the coffee carts throughout the State of Israel displayed on ### the app,
 
 ![1](https://user-images.githubusercontent.com/88483910/166127172-2876476e-a4de-4b82-b124-884894531c0a.jpg)
 
